@@ -189,7 +189,7 @@ def set_logger(level=logging.WARNING):
     logger.addHandler(ch)
     return logger
 
-LOGGER = set_logger(logging.DEBUG)
+LOGGER = set_logger(logging.WARNING)
 depth = input()
 arr = map(int, raw_input().split())
 n = input()
